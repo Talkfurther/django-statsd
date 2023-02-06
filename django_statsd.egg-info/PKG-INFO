@@ -1,3 +1,33 @@
+Metadata-Version: 2.1
+Name: django-statsd
+Version: 2.5.2
+Summary: django-statsd is a Django app that submits query and view durations to Etsy's statsd.
+Home-page: https://github.com/WoLpH/django-statsd
+Author: Rick van Hattem
+Author-email: Rick.van.Hattem@Fawo.nl
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Provides-Extra: docs
+Provides-Extra: tests
+
 Introduction
 ============
 
@@ -65,4 +95,4 @@ Advanced Usage
     ...     # do something here
     ...     request.timings.stop('something_to_time')
 
-touch
+
